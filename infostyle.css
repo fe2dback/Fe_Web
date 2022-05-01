@@ -1,0 +1,84 @@
+body{background-color: #001d00;}
+
+    
+
+ a:link { color: red; text-decoration: none;}
+ a:visited { color: black; text-decoration: none;}
+ a:hover { color: blue; text-decoration: none;}
+
+
+
+#in p{
+    color: white
+}
+#in h1{
+    color: white;
+}   
+
+
+
+#nav_menu ul {
+    list-style-type:none;
+    padding-left:0px;
+    float:left;
+    }
+    
+#nav_menu ul li {
+    background-color: none;
+    font-size: 50px;
+    color: white;
+    display:inline;
+    border-left: 1px solid white;
+    padding: 0px 20px 0px 30px;
+    margin: 5px 0px 5px 0px;
+    }
+    
+#nav_menu ul li:first-child {
+    border-left: none;
+    }
+
+
+p{color: white;}
+
+
+/*
+#img img{position: fixed; 
+    left:20px; top: 200px;}
+
+#detail p{
+    font-size: 16px;
+color: white; 
+position: fixed; 
+left:450px; 
+top: 250px; 
+white-space : nowrap;
+}
+
+
+   <div id="detail">
+    <p>설명글입니다. 아무말이나 쓰고있는데 일단 최대한 길게 씁니다<p>
+    </div>
+
+*/
+#title h1{
+font-size: 40px;
+color: white; 
+position: fixed; 
+top: 160px; 
+white-space : nowrap;
+}
+
+#img img{position: relative; 
+    left:5%; top: 200px;}
+
+
+#de p{
+    font-size: 16px;
+color: white; 
+position: fixed; 
+top: 310px; 
+white-space : nowrap;
+}
+
+
+
