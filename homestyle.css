@@ -1,10 +1,10 @@
-body{background-color: #001d00;}
+body{background-color: #ccdacd;}
 
-    
 
- a:link { color: red; text-decoration: none;}
- a:visited { color: black; text-decoration: none;}
- a:hover { color: blue; text-decoration: none;}
+
+ a:link { color: white; text-decoration: none;}
+ a:visited { color: white; text-decoration: none;}
+ a:hover { color: #d6dc3c; text-decoration: none; font-size: 5vw; }
 
 
 
@@ -25,42 +25,126 @@ body{background-color: #001d00;}
     
 #nav_menu ul li {
     background-color: none;
-    font-size: 50px;
-    color: white;
+    font-weight: bold;
+    font-size: 6vmax;
+    color: #091928;
     display:inline;
     border-left: 1px solid white;
-    padding: 0px 20px 0px 30px;
+    padding: 0px 20px 0px 20px;
     margin: 5px 0px 5px 0px;
+    
     }
     
 #nav_menu ul li:first-child {
     border-left: none;
+    
     }
 
 
 p{color: white;}
 
-#title h1{
-    font-size: 40px;
-    color: white; 
-    white-space : nowrap;
+
+.hometab > p
+{
+    color: white;
+    font-size: 5vw;
+    font-family: 'Jua', sans-serif;
+    background-color: #588f94;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 300px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+
+    border-radius: 20px;
+    text-align: center;
+
+    
+    animation: fadein 6s;
+    -moz-animation: fadein 6s;
+    -webkit-animation: fadein 6s;
+    -o-animation:  fadein 6s;
+
+    
+}
+
+.hometab > img
+{
+    color: white;
+    font-size: 10vw;
+    background-color: #588f94;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 150px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+    
+
+    border-radius: 20px;
     text-align: center;
     position: relative;
-    top: 200px;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    
+
+    
+
+    
 }
 
-#img img{position: relative; 
-    left:5%; top: 200px;}
+@keyframes move {
+    from { left: -400px;}
+    to   { left: 0px;}
+  }
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+  }
+  @keyframes changeColor {
+    from { background-color: red; }
+    to   { background-color: blue; }
+  }
 
-
-#de p{
-    font-size: 16px;
-color: white; 
-position: fixed; 
-left:65%; 
-top: 300px; 
-white-space : nowrap;
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
-
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 
