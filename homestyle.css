@@ -4,7 +4,7 @@ body{background-color: #ccdacd;}
 
  a:link { color: white; text-decoration: none;}
  a:visited { color: white; text-decoration: none;}
- a:hover { color: #d6dc3c; text-decoration: none;}
+ a:hover { color: #d6dc3c; text-decoration: none; -webkit-text-stroke: 1px black;}
 
 
 
