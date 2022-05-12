@@ -71,6 +71,15 @@ p{color: white;}
     
 }
 
+.hometab > img{
+    float: right; 
+    margin-right: 100px;
+    animation: fadein 6s;
+    -moz-animation: fadein 6s;
+    -webkit-animation: fadein 6s;
+    -o-animation:  fadein 6s;
+}
+/*
 .hometab > img
 {
     color: white;
@@ -100,7 +109,7 @@ p{color: white;}
 
     
 }
-
+*/
 @keyframes move {
     from { left: -400px;}
     to   { left: 0px;}
