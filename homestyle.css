@@ -72,8 +72,8 @@ p{color: white;}
 }
 
 .hometab > img{
-    float: right; 
-    margin-right: 100px;
+    padding-right: 3vw;
+    margin-top: -10%;
     animation: fadein 6s;
     -moz-animation: fadein 6s;
     -webkit-animation: fadein 6s;
